@@ -1,45 +1,39 @@
-# 🎯 Number Guessing Game 🎮
+# 🎮 Python Number Guessing Game
 
-A simple terminal-based Python game where the computer picks a random number between 1 and 100, and the player tries to guess it within a limited number of attempts based on the selected difficulty level.
-
----
-
-## 👩‍💻 Created by:
-**Ha4saah**
+> **by [@ha4saah](https://github.com/ha4saah)**  
+> A fun CLI-based game where users guess a randomly generated number with limited attempts.
 
 ---
 
-## 🚀 How It Works
+## 📜 Description
 
-- The computer randomly selects a number between **1 and 100**.
-- The player selects a difficulty level:
-  - 🟢 **Easy** – 10 attempts
-  - 🟡 **Medium** – 5 attempts
-  - 🔴 **Hard** – 3 attempts
-- The player enters guesses, and the program gives feedback:
-  - Whether the guess is **too high** or **too low**.
-  - Ends the game if the correct number is guessed or attempts run out.
+This Python script challenges the user to guess a number between 1 and 100.  
+You can choose from three difficulty levels — **Easy**, **Medium**, and **Hard** — each offering a different number of attempts.
 
 ---
 
-## 🧠 Features
+## 📂 Files in This Repo
 
-- Clean structure using Python functions
-- Input validation (non-numeric and out-of-range handling)
-- Hints after each wrong guess
-- Difficulty levels
-
----
-
-## 🛠️ Requirements
-
-- Python 3.x
+| File Name       | Description                           |
+|------------------|---------------------------------------|
+| `guess_game.py`  | Main Python script for the game       |
 
 ---
 
-## ▶️ How to Run
+## 🧩 Features
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ha4saah/number-guessing-game.git
-   cd number-guessing-game
+- Three difficulty levels (Easy/Medium/Hard)
+- Random number generation
+- Input validation and hint system
+- Clear and beginner-friendly code
+
+---
+
+## 🚀 How to Run
+
+Make sure you have Python installed. Then run:
+
+```bash
+git clone https://github.com/ha4saah/number-guessing-game.git
+cd number-guessing-game
+python guess_game.py
